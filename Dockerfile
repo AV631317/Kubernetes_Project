@@ -1,5 +1,5 @@
-FROM  linux:latest
-MAINTAINER vikashashoke@gmail.com
+FROM  amazonlinux:latest
+MAINTAINER aadeshverma89@gmail.com
 RUN yum install -y httpd \
  zip\
  unzip
